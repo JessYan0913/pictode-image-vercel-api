@@ -16,12 +16,6 @@
 
 - 方便的 Debug 文件 -- 现在你可以直接在 `debug/apitest.http` 文件中测试api，而不必到网页上测试
 
-## Demo
-
-[示例网站地址](https://demo-flask-vercel.sawana.site/)
-
-![exampl-site](./example-site.png)
-
 ## 直接部署生效
 
 点击按钮立刻部署！
