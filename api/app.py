@@ -56,12 +56,6 @@ def home():
 #     except Exception as e:
 #         return jsonify({"error": str(e)}), 500
 
-
-# register bluepirnt
-from . import blueprint
-
-app.register_blueprint(blueprint.bp)
-
 # 锁定输出格式为 utf-8
 app.config["JSON_AS_ASCII"] = False
 app.config["JSONIFY_MIMETYPE"] = "application/json;charset=utf-8"
